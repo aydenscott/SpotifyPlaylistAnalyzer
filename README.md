@@ -1,5 +1,5 @@
 # SpotifyPlaylistTimeline
-Python program that scrapes http://sortyourmusic.playlistmachinery.com/ and collects:
+Python program that scrapes http://sortyourmusic.playlistmachinery.com/ and collects/displays:
 * Timeline histogram of the songs in the selected playlist
 * Pie chart of length data from songs
 * Prints the 10 most common artists in your playlists along with their occurance rate 
@@ -17,5 +17,3 @@ Length and artist data piggyback heavily off of what was previously done to find
 * Improving the Tkinter dropdown menu. It gets the job done by allowing the user to pick the playlist, closes itself, and feeds the choice into playlist_name which is used later in the program. However, it is quite unsightly so more work could be done in beautifying it for user readability.
 * Get selenium headless mode to work without lists coming back empty.
 
-## Future Uses
-~~By changing the regular expressions, the program could quickly be changed to search for other types of data present on the page. For example, a pie chart could be created that sorts the length of the songs into various categories from the length data present on the page. And since the format of time is unique as \d:\d\d , little issues would arise with the regular expressions. Besides the regular expressions, the for loops should be able to remain as is and the plotting part of the program would only have to be minimally changed depending on the type of chart the user would like to plot~~.
