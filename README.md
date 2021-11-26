@@ -14,7 +14,7 @@ Length and artist data piggyback heavily off of what was previously done to find
 
 ## Possible Improvements
 * ~~Automatically finding the playlist length when given the name of the playlist (since the information is listed side by side but by inputing the playlist name, selenium is finding it by link text not by xpath. Therefore, I've been unable to find a concise way of taking the element found by link text and converting it to xpath whereby you can find the sibling element)~~
-* ~~Display data in a more informative way by altering the amount of bins, the ticks on the x-axis, or other graph-related changes to enhance readability (This one is very important but as I have little experience plotting such large histograms (the playlist I was using had ~1400 songs) I was unable to strike a balance between readability and precision)
+* ~~Display data in a more informative way by altering the amount of bins, the ticks on the x-axis, or other graph-related changes to enhance readability (This one is very important but as I have little experience plotting such large histograms (the playlist I was using had 1400 songs) I was unable to strike a balance between readability and precision)
 * Improving the Tkinter dropdown menu. It gets the job done by allowing the user to pick the playlist, closes itself, and feeds the choice into playlist_name which is used later in the program. However, it is quite unsightly so more work could be done in beautifying it for user readability.
 * Get selenium headless mode to work without lists coming back empty.
 
