@@ -1,4 +1,4 @@
-# SpotifyPlaylistTimeline
+# SpotifyPlaylistAnalyzer
 Python program that scrapes http://sortyourmusic.playlistmachinery.com/ and collects/displays:
 * Timeline histogram of the songs in the selected playlist
 * Pie chart of length data from songs
